@@ -179,7 +179,8 @@ We should break the data down into subgroups to see which part has more effect. 
 
 **Simpson’s Paradox** is a statistical phenomenon that a trend appears in the combined data, but disappears or reverses when the data are partitioned into several different groups.
 
-(<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/6d5499ba-7f25-4390-a70c-a8ece2caaf84" / alt=""Simpsons Paradox Animation" by Pace~svwiki licensed under CC BY-SA 4.0">)
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/6d5499ba-7f25-4390-a70c-a8ece2caaf84" />
+<figcaption>"Simpsons Paradox Animation" by Pace~svwiki licensed under CC BY-SA 4.0</figcaption>
 
 
 #### Multiple Metrics
