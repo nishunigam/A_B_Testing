@@ -31,9 +31,9 @@ However, there are also cases it is Not So Useful:
 
 **New experiences** Introducing new experiences such as VIP services can be troublesome because:
 
-  - a) The baseline of comparison is not clear
+  a) The baseline of comparison is not clear
 
-  - b) The time needed for users to adapt to new experiments can be quite costly, as there might be some psychological influences on users:
+  b) The time needed for users to adapt to new experiments can be quite costly, as there might be some psychological influences on users:
 
       - **Change Aversion:** when faced with a new interface or changed functionality, users often experience anxiety and confusion, resulting in a short-term negative effect.
 
@@ -65,6 +65,8 @@ After we set up our goals in step 1, we need to choose the correct metrics to co
 
 <img width="643" height="383" alt="image" src="https://github.com/user-attachments/assets/e2acd49b-423e-4433-b062-7930a14300c4" />
 <em>Customer Funnel of the Online Course Example</em>
+
+
 
 Then we determine how to **summarise the metrics.** In general, there are 4 ways to summarise the metrics:
 
@@ -173,6 +175,7 @@ If the practical significance level (dₘᵢₙ) falls on a different part of th
 
 <img width="1024" height="904" alt="image" src="https://github.com/user-attachments/assets/8356db53-8c33-4db5-ba59-a1f86515fd8d" />
 <em>Confidence Interval VS Practical Significance Level.</em>
+
 
 
 
