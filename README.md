@@ -35,9 +35,9 @@ However, there are also cases it is Not So Useful:
 
   b) The time needed for users to adapt to new experiments can be quite costly, as there might be some psychological influences on users:
 
-    - **Change Aversion:** when faced with a new interface or changed functionality, users often experience anxiety and confusion, resulting in a short-term negative effect.
+  - **Change Aversion:** when faced with a new interface or changed functionality, users often experience anxiety and confusion, resulting in a short-term negative effect.
 
-    - **Novelty Effect:** when new techs came out, users will often have increased interests so that the performance will improve initially, but it’s not because of any actual improvement.
+  - **Novelty Effect:** when new techs came out, users will often have increased interests so that the performance will improve initially, but it’s not because of any actual improvement.
 
  ## What are the Steps of A/B Testing?
 
