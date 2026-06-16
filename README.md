@@ -156,7 +156,7 @@ If sanity check only failed in the pre-period, check the experiment set up, infr
 **2. Calculate the statistical significance**
 After the sanity check, we finally reach the most exciting part! We can now put together all the hard works and make a decision! In this step, we need to determine if the change is statistically significant, together with the magnitude and direction of the change. For single and multiple metrics, we usually use different strategies.
 
-##### Single Metric
+#### Single Metric
 
 **Hypothesis test** and **sign test** are commonly used to calculate the statistical significance for a single metric. Let’s see the examples：
 
