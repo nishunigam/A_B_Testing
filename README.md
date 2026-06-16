@@ -112,6 +112,8 @@ The questions we need to answer regarding the size include: How many tests do we
 <img width="557" height="394" alt="image" src="https://github.com/user-attachments/assets/18223115-4629-4ec9-a8ec-d00debff2d6a" />
 <em>Parameters that Affects the Sample Size</em>
 
+
+
 And the specific numbers can be calculated [using this calculator](https://www.evanmiller.org/ab-testing/sample-size.html).
 
 **4. Time**
@@ -171,6 +173,8 @@ If the practical significance level (dₘᵢₙ) falls on a different part of th
 
 <img width="1024" height="904" alt="image" src="https://github.com/user-attachments/assets/8356db53-8c33-4db5-ba59-a1f86515fd8d" />
 <em>Confidence Interval VS Practical Significance Level.</em>
+
+
 
 **Sign Test:** Suppose when we segment the data into different days, 9 out of 14 days the control group has a higher click-through probability.
 
