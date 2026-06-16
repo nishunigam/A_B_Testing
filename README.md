@@ -167,7 +167,8 @@ Since the lower boundary of the confidence interval is higher than the minimum p
 
 If the practical significance level (dₘᵢₙ) falls on a different part of the confidence interval, we could reference this graph:
 
-![Confidence Interval VS Practical Significance Level](<img width="1024" height="904" alt="image" src="https://github.com/user-attachments/assets/8356db53-8c33-4db5-ba59-a1f86515fd8d" />)
+<img width="1024" height="904" alt="image" src="https://github.com/user-attachments/assets/8356db53-8c33-4db5-ba59-a1f86515fd8d" />
+![Confidence Interval VS Practical Significance Level
 
 **Sign Test:** Suppose when we segment the data into different days, 9 out of 14 days the control group has a higher click-through probability.
 
@@ -180,8 +181,7 @@ We should break the data down into subgroups to see which part has more effect. 
 **Simpson’s Paradox** is a statistical phenomenon that a trend appears in the combined data, but disappears or reverses when the data are partitioned into several different groups.
 
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/6d5499ba-7f25-4390-a70c-a8ece2caaf84" />
-<figcaption>"Simpsons Paradox Animation" by Pace~svwiki licensed under CC BY-SA 4.0</figcaption>
-
+<em>"Simpsons Paradox Animation" by Pace~svwiki licensed under CC BY-SA 4.0</em>
 
 #### Multiple Metrics
 One key difference between single and multiple metrics is that:
