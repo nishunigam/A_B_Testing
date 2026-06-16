@@ -110,7 +110,7 @@ The questions we need to answer regarding the size include: How many tests do we
 
 ![Parameters that Affects the Sample Size](<img width="557" height="394" alt="image" src="https://github.com/user-attachments/assets/18223115-4629-4ec9-a8ec-d00debff2d6a" />)
 
-And the specific numbers can be calculated [using this calculator(]https://www.evanmiller.org/ab-testing/sample-size.html).
+And the specific numbers can be calculated [using this calculator](https://www.evanmiller.org/ab-testing/sample-size.html).
 
 **4. Time**
 The last parameter to consider is time, which includes:
@@ -179,7 +179,7 @@ We should break the data down into subgroups to see which part has more effect. 
 
 **Simpson’s Paradox** is a statistical phenomenon that a trend appears in the combined data, but disappears or reverses when the data are partitioned into several different groups.
 
-!["Simpsons Paradox Animation" by Pace~svwiki licensed under CC BY-SA 4.0](<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/6d5499ba-7f25-4390-a70c-a8ece2caaf84" />)
+(<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/6d5499ba-7f25-4390-a70c-a8ece2caaf84" / alt=""Simpsons Paradox Animation" by Pace~svwiki licensed under CC BY-SA 4.0">)
 
 
 #### Multiple Metrics
