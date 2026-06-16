@@ -185,15 +185,15 @@ Luckily, it is not repeatable. If we do the test again or segment it into small 
 We could also use these techniques to resolve the multiple comparison issue:
 
 How to resolve multiple comparison controversy?
-The general solution is to use a higher confidence interval. This can be achieved by:
+The general solution is to use a **higher confidence interval**. This can be achieved by:
 
-a) Assuming independence, and set only the overall alpha Then we use:αᵒᵛᵉʳᵃˡˡ = 1-(1 – αᶦⁿᵈᶦᵛᶦᵈᵘᵃˡ) ⁿ to calculate individual α.
+  - a) Assuming independence, and set only the overall alpha Then we use:αᵒᵛᵉʳᵃˡˡ = 1-(1 – αᶦⁿᵈᶦᵛᶦᵈᵘᵃˡ) ⁿ to calculate individual α.
 
-b) Bonferroni Correction This method has no assumptions. It calculates the individual α by αᶦⁿᵈᶦᵛᶦᵈᵘᵃˡ = αᵒᵛᵉʳᵃˡˡ/number of metrics. Note that this is a relatively conservative method, you may miss some valuable observations.
+  - b) Bonferroni Correction This method has no assumptions. It calculates the individual α by αᶦⁿᵈᶦᵛᶦᵈᵘᵃˡ = αᵒᵛᵉʳᵃˡˡ/number of metrics. Note that this is a relatively conservative method, you may miss some valuable observations.
 
-c) Familywise Error Rate The FER only controls the probability that any metric shows a false positive.
+  - c) Familywise Error Rate The FER only controls the probability that any metric shows a false positive.
 
-d) Control False Discovery Rate In this case, we allow a high probability of false positive, as long as there isn’t too many. Note that FDR should be used when the number of metrics is very large, usually hundreds.
+  - d) Control False Discovery Rate In this case, we allow a high probability of false positive, as long as there isn’t too many. Note that FDR should be used when the number of metrics is very large, usually hundreds.
 
 ### Step 5. It’s All about Decisions
 
@@ -201,11 +201,11 @@ Up until now, we’ve already calculated the statistical significance and confid
 
 ## Things to consider when making decisions
 
-*Is it statistically and practically significant?
-+Do you understand the change?
--For multiple metrics, do they move in the same direction?
-*What has the change done to the user experience?
-+Is it worth it
+* Is it statistically and practically significant?
++ Do you understand the change?
+- For multiple metrics, do they move in the same direction?
+* What has the change done to the user experience?
++ Is it worth it
 
 
 ## Problems may occur when launching
