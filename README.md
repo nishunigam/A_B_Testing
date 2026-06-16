@@ -130,7 +130,7 @@ The last parameter to consider is time, which includes:
 ### Step 4. Analyse the Results
 Suppose that we have already run the experiment and collected a sufficient amount of data. Shall we move on to analysing the results directly? Not quite, we still need to do another sanity check to ensure the experiment is conducted properly.
 
-**1. Sanity Check**
+#### **1. Sanity Check**
 We have already know the invariants when choosing our metrics. Now we need to check that they actually didn’t change in the experiment. Let’s look at an example:
 
 Say we’ve collected 65554 samples in the "4 X 3" button size group and 61818 in the "16 X 9" group. We want to know whether the number of samples collected in these two groups are roughly the same with 95% confidence.
@@ -153,10 +153,10 @@ To prevent the sanity check from failing, we could also add a **pre/post period 
 
 If sanity check only failed in the pre-period, check the experiment set up, infrastructures or things along those lines. If it only failed in the experiment itself, then it’s the data capture issue.
 
-**2. Calculate the statistical significance**
+#### **2. Calculate the statistical significance**
 After the sanity check, we finally reach the most exciting part! We can now put together all the hard works and make a decision! In this step, we need to determine if the change is statistically significant, together with the magnitude and direction of the change. For single and multiple metrics, we usually use different strategies.
 
-#### Single Metric
+##### Single Metric
 
 **Hypothesis test** and **sign test** are commonly used to calculate the statistical significance for a single metric. Let’s see the examples：
 
@@ -191,7 +191,7 @@ We should break the data down into subgroups to see which part has more effect. 
 
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/6d5499ba-7f25-4390-a70c-a8ece2caaf84" />
 
-#### Multiple Metrics
+##### Multiple Metrics
 One key difference between single and multiple metrics is that:
 
 The more metrics you test, the more likely you see statistically significant results by chance – Multiple Comparison Controversy
