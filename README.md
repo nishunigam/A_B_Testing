@@ -1,7 +1,7 @@
 # A/B Testing
 
 ## What is A/B testing?
-A/B testing is a way to compare two versions of a single variable , typically by testing a subject’s response to variant A against variant B , and determining which of the two variants is more effective.
+> A/B testing is a way to compare two versions of a single variable , typically by testing a subject’s response to variant A against variant B , and determining which of the two variants is more effective.
 
 Suppose an online learning platform wants you to test whether they should change the web page’s button size to increase the number of users.
 
