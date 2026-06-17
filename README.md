@@ -119,6 +119,7 @@ The questions we need to answer regarding the size include: How many tests do we
 And the specific numbers can be calculated [using this calculator](https://www.evanmiller.org/ab-testing/sample-size.html).
 
 **4. Time**
+
 The last parameter to consider is time, which includes:
 
   - **When to run the test**Many businesses have seasonal effects. If our tests happen to be on holidays or back to school days, the results may not be accurate. So if possible, it’s better to test the results in a comparable time.
@@ -144,7 +145,7 @@ We could use the formula below for sanity check:
 The observed probability is not within the 95% confidence interval in the example above, so something about the setup isn’t correct.
 
 #### So what to do if our sanity check went wrong?
-Do not proceed, go straight to analysing why it fails.
+> Do not proceed, go straight to analysing why it fails.
 
 
 First, we could look at the data in a **smaller group,** eg. day by day to find out which part went wrong. If it was technical reasons, we should debug with the engineers.
@@ -187,14 +188,14 @@ If there’s no difference between the two groups, the hypothetical probability 
 We should break the data down into subgroups to see which part has more effect. You may also encounter the Simpson’s paradox in such cases. A very famous example is the UC Berkeley gender bias.
 
 
-**Simpson’s Paradox** is a statistical phenomenon that a trend appears in the combined data, but disappears or reverses when the data are partitioned into several different groups.
+> **Simpson’s Paradox** is a statistical phenomenon that a trend appears in the combined data, but disappears or reverses when the data are partitioned into several different groups.
 
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/6d5499ba-7f25-4390-a70c-a8ece2caaf84" />
 
 ##### Multiple Metrics
 One key difference between single and multiple metrics is that:
 
-The more metrics you test, the more likely you see statistically significant results by chance – Multiple Comparison Controversy
+> The more metrics you test, the more likely you see statistically significant results by chance – Multiple Comparison Controversy
 
 
 This is because the probability of **false-positives at least occur once** would be higher.
@@ -230,7 +231,7 @@ Up until now, we’ve already calculated the statistical significance and confid
 + Is it worth it?
 
 ## Problems may occur when launching
-Always do a ramp-up when lauching a change, that’s what we do for all the launches at Google.
+> Always do a ramp-up when lauching a change, that’s what we do for all the launches at Google.
 
 
 Real word data is nasty, so do the test. Even if the test is statistically significant initially, the **effect can be flattened when you ramp up the change** (i.e. gradually increase the percentage of users to the new version). This is mainly because:
